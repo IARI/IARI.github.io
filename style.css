@@ -3766,14 +3766,14 @@ body {
     text-align: center;
 }
 
-.interests-list {
+.skillicon-list {
     text-align: center;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.interests-list li {
+.skillicon-list li {
     margin: 7px 5px;
     width: 74px;
     height: 74px;
@@ -3785,7 +3785,7 @@ body {
     border-radius: 3px;
 }
 
-.interests-list li span {
+.skillicon-list li span {
     color: #fff;
     font-size: 11px;
     font-weight: 400;
@@ -3814,7 +3814,7 @@ body {
     backface-visibility: hidden;
 }
 
-.interests-list li:hover span {
+.skillicon-list li:hover span {
     opacity: 1;
     visibility: visible;
     -webkit-transition: all 0.35s ease-out;
@@ -3828,7 +3828,7 @@ body {
     backface-visibility: hidden;
 }
 
-.interests-list i {
+.skillicon-list i {
     display: block;
     width: 100%;
     height: 100%;
@@ -3838,13 +3838,13 @@ body {
 }
 
 @media (max-width: 767px) {
-    .interests-list li {
+    .skillicon-list li {
         margin: 5px 3px;
         width: 65px;
         height: 65px;
     }
 
-    .interests-list li i {
+    .skillicon-list li i {
         line-height: 65px;
     }
 }
@@ -6394,11 +6394,11 @@ body {
     background-color: #222227;
 }
 
-.theme-skin-dark .interests-list li {
+.theme-skin-dark .skillicon-list li {
     border-color: #47494C;
 }
 
-.theme-skin-dark .interests-list li span {
+.theme-skin-dark .skillicon-list li span {
     background-color: #222227;
 }
 

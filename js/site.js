@@ -62,7 +62,7 @@
     }
 
     function positioningInterestsTooltips() {
-        var interests = $(".interests-list");
+        var interests = $(".skillicon-list");
         var tooltips = interests.find('span');
 
         if(interests.length > 0) {
