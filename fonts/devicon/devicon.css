@@ -22,6 +22,15 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+.devicon-steamvr-plain:before {
+	content: "\e95c";
+}
+.devicon-Vive:before {
+	content: "\e95b";
+}
+.devicon-gitkraken-plain:before {
+	content: "\e95a";
+}
 .devicon-unity:before {
 	content: "\e958";
 }
