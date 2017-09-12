@@ -831,12 +831,18 @@
 					$.post( rsFormAction,
 						rsForm.serialize(),
 						function (response) {
-							var data = jQuery.parseJSON( response );
-							if(data){								
-								rsForm.append('<div class="rsFormResponce"><strong>Congratulation!</strong><br>Your email was sent successfully!</div>');
-							} else {
-								rsForm.append('<div class="rsFormResponce"><strong>OOPS!</strong> Something went wrong.<br>Please try again.</div>');
-							}							
+                            var data = {};
+                            try {
+                                data = jQuery.parseJSON(response);
+                            } catch (e) {
+                                console.log("non json response: " + response);
+                            } finally {
+                                if(data){
+                                    rsForm.append('<div class="rsFormResponce"><strong>Congratulation!</strong><br>Your email was sent successfully!</div>');
+                                } else {
+                                    rsForm.append('<div class="rsFormResponce"><strong>OOPS!</strong> Something went wrong.<br>Please try again.</div>');
+                                }
+                            }
 						}
 					);
 					return false;
