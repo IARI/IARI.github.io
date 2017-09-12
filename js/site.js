@@ -836,6 +836,10 @@
                                 data = jQuery.parseJSON(response);
                             } catch (e) {
                                 console.log("non json response: " + response);
+                                var win=window.open('about:blank');
+                                win.document.open();
+                                win.document.write(response);
+                                win.document.close();
                             } finally {
                                 if(data){
                                     rsForm.append('<div class="rsFormResponce"><strong>Congratulation!</strong><br>Your email was sent successfully!</div>');
