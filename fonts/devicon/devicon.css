@@ -22,6 +22,9 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+.devicon-meetup:before {
+	content: "\e95d";
+}
 .devicon-steamvr-plain:before {
 	content: "\e95c";
 }
