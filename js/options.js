@@ -59,6 +59,10 @@ var rsOptions = {
             new Date(2017, 8, 18),
             new Date(2017, 8, 19),
             new Date(2017, 8, 20),
+
+            new Date(2017, 8, 29),
+            new Date(2017, 8, 30),
+            new Date(2017, 9, 1),
 		]
     }	
 };
