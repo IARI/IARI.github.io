@@ -34,7 +34,7 @@ var rsOptions = {
 		endYear: '2018',
 		endMonth: '0',
 		weekStart: 'Monday', // possible values Sunday/Monday
-		weekNames: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+		weekNames: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
 		monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],		                
 		busyDays: [ // new Date(year, month, day)
             new Date(2017, 7, 31),
